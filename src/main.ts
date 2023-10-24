@@ -1,7 +1,7 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { PasswordStrengthCheckerModule } from './app/password-strength-checker.module';
+import { AppModule } from './app/app.module';
 
 platformBrowserDynamic()
-  .bootstrapModule(PasswordStrengthCheckerModule)
+  .bootstrapModule(AppModule)
   .catch((err) => console.error(err));
